@@ -7,10 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>Pablo Aritz Bideo streaming plataforma</title>
   </head>
-  <body>
+  <body class="back">
     <h1>Ongi etorri Pablo Aritz streaming plataformara</h1>
     <h2>Aukeratu nahi duzun aukera</h2>
     <div class="container">
