@@ -1,5 +1,5 @@
-function onClick(file){
-    window.location.href="VoDPlayer.php?name="+file;
+function onClick(file, type) {
+    window.location.href = "VoDPlayer.php?name=" + file + "&type=" + type;
 }
 
 function getVideoCover(file, seekTo = 0.0, id = 0) {
@@ -11,7 +11,7 @@ function getVideoCover(file, seekTo = 0.0, id = 0) {
     videoPlayer.addEventListener('error', (ex) => {
         reject("error when loading video file", ex);
     });
-    
+
     // load metadata of the video to get video duration and dimensions
     videoPlayer.addEventListener('loadedmetadata', () => {
         // seek to user defined timestamp (in seconds) if possible
@@ -36,9 +36,9 @@ function getVideoCover(file, seekTo = 0.0, id = 0) {
             x.setAttribute("src", dataURI);
             x.setAttribute("width", "304");
             x.setAttribute("height", "228");
-            
+
             return dataURI;
-            
+
         });
     });
 }
