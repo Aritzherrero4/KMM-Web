@@ -42,3 +42,13 @@ function getVideoCover(file, seekTo = 0.0, id = 0) {
         });
     });
 }
+
+function dashVideo(URL) {
+    const url = URL;
+    var videoElement = document.querySelector(".videoContainer video");
+
+    var player = dashjs.MediaPlayer().create();
+    player.initialize(videoElement, url, true);
+    var controlbar = new ControlBar(player);
+    controlbar.initialize();
+}

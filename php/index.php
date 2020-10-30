@@ -24,7 +24,7 @@
             <p class="card-text">Gure plataforman igotako bideoak interesgarriak ikusi</p>
             <a href="php/VoD.php?type=1" class="btn btn-primary">Ikusi - HTML</a>
             <a href="php/VoD.php?type=2" class="btn btn-primary">Ikusi - VideoJs</a>
-            <a href="php/VoD.php" class="btn btn-primary">Ikusi - Adaptative</a>
+            <a href="php/VoD.php?type=3" class="btn btn-primary">Ikusi - Adaptive</a>
           </div>
         </div>
       </div>

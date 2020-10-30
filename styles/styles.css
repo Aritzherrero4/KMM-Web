@@ -1,3 +1,15 @@
 .back {
     background: #DCE1E3;
 }
+
+.dash-video-player {
+    position: relative;
+    /* This position relative is needed to position the menus */
+    width: 720px;
+    height: auto;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+}
