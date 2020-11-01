@@ -33,7 +33,7 @@
           <div class="card-body">
             <h5 class="card-title">Zuzeneko ekitaldiak</h5>
             <p class="card-text">Ikusi orain gertatzen hari dena. Ez galdu ezer!</p>
-            <a href="php/zuzenean.php" class="btn btn-primary">Ikusi</a>
+            <a href="php/live.php" class="btn btn-primary">Ikusi</a>
           </div>
         </div>
       </div>
