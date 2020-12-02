@@ -21,7 +21,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Aurregrabatutako Bideoak</h5>
-            <p class="card-text">Gure plataforman igotako bideoak interesgarriak ikusi</p>
+            <p class="card-text">Gure plataforman igotako bideo interesgarriak ikusi</p>
             <a href="php/VoD.php?type=1" class="btn btn-primary">Ikusi - HTML</a>
             <a href="php/VoD.php?type=2" class="btn btn-primary">Ikusi - VideoJs</a>
             <a href="php/VoD.php?type=3" class="btn btn-primary">Ikusi - Adaptive</a>
@@ -32,7 +32,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Zuzeneko ekitaldiak</h5>
-            <p class="card-text">Ikusi orain gertatzen hari dena. Ez galdu ezer!</p>
+            <p class="card-text">Ikusi orain gertatzen ari dena. Ez galdu ezer!</p>
             <a href="php/live.php" class="btn btn-primary">Ikusi</a>
           </div>
         </div>
