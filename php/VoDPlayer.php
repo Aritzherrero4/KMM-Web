@@ -65,7 +65,7 @@
           </div>
           <div class="col">
             <?php $URL .= $name . '&type=3' ?>
-            <a href=<?php echo $URL ?> class="btn btn-primary">Ikusi - Adaptative</a>
+            <a href=<?php echo $URL ?> class="btn btn-primary">Ikusi - Adaptive</a>
           </div>
         </div>
 
@@ -88,7 +88,7 @@
           <div class="col">
           <p></p>
             <?php $URL .= $name . '&type=3' ?>
-            <a href=<?php echo $URL ?> class="btn btn-primary">Ikusi - Adaptative</a>
+            <a href=<?php echo $URL ?> class="btn btn-primary">Ikusi - Adaptive</a>
           </div>
         </div>
       <?php endif ?>
